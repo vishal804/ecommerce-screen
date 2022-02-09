@@ -28,3 +28,7 @@
 .card-image-container {
   height: 250px;
 }
+
+.card-btn-container {
+  padding: 1rem;
+}
