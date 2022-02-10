@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoplify | Cart</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://chalkui.netlify.app/css/styles.css" />
+  </head>
+  <body>
+    <!-- Header Navigation -->
+    <header>
+      <nav class="navbar box-shadow">
+        <div class="left-navbar">
+          <div class="logo"><a href="/index.html">Shoplify</a></div>
+        </div>
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input class="search" placeholder="Search" />
+        </div>
+        <ul class="right-navbar">
+          <li class="NoShow">
+            <button class="btn btn-link btn-style">
+              <a href="#">Login</a>
+            </button>
+          </li>
+          <li class="NoShow">
+            <a href="#"><i class="fa-2x far fa-heart"></i></a>
+          </li>
+          <li class="notification NoShow">
+            <a href="#"
+              ><i class="fas fa-shopping-cart fa-2x"></i
+              ><span class="badge">0</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Header Navigation -->
+
+    <section class="cart-section">
+      <div class="cart-container flex">
+        <div class="cart-item-container card-horizontal-style">
+          <h2 class="cart-heading">My Cart (<span>5</span>)</h2>
+          <!-- Card -->
+          <div class="card card-Horizontal">
+            <div>
+              <span class="text-badge">NEW</span>
+              <img
+                class="image-responsive"
+                src="/assets/Products/card.jpg"
+                alt="card"
+              />
+            </div>
+            <div class="card-container">
+              <div class="card-text-container">
+                <h5 class="card-heading">Men Peruim Jacket</h5>
+                <p class="card-subheading">Rs 2000</p>
+                <span class="small-text">50% off</span>
+                <div class="quantity flex flex-align-center">
+                  <span>Quantity : </span>
+                  <div class="counter">
+                    <a class="counter-item" href="#"
+                      ><i class="fas fa-minus"></i
+                    ></a>
+                    <span class="counter-item">2</span>
+                    <a class="counter-item" href="#"
+                      ><i class="fas fa-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-btn-container">
+                <button class="btn btn-secondary btn-lg">
+                  Remove From Cart
+                </button>
+                <button class="btn btn-lg">Move to Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+
+          <!-- Card -->
+          <div class="card card-Horizontal">
+            <div>
+              <img
+                class="image-responsive"
+                src="/assets/Products/card.jpg"
+                alt="card"
+              />
+            </div>
+            <div class="card-container">
+              <div class="card-text-container">
+                <h5 class="card-heading">Premium Handset</h5>
+                <p class="card-subheading">Rs 2999</p>
+                <span class="small-text">50% off</span>
+                <div class="quantity flex flex-align-center">
+                  <span>Quantity : </span>
+                  <div class="counter">
+                    <a class="counter-item" href="#"
+                      ><i class="fas fa-minus"></i
+                    ></a>
+                    <span class="counter-item">2</span>
+                    <a class="counter-item" href="#"
+                      ><i class="fas fa-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-btn-container">
+                <button class="btn btn-secondary btn-lg">
+                  Remove From Cart
+                </button>
+                <button class="btn btn-lg">Move to Wishlist</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+
+        <aside class="price-breakout flex-grow-1">
+          <div class="cart-price-heading">PRICE DETAILS</div>
+          <hr />
+          <div>
+            <div class="price-breakdown flex flex-space-between">
+              <span>Price (5 items)</span>
+              <span>Rs. 15999</span>
+            </div>
+            <div class="price-breakdown flex flex-space-between">
+              <span>Discount</span>
+              <span>- Rs. 1999</span>
+            </div>
+            <div class="price-breakdown flex flex-space-between">
+              <span>Delivery Charges</span>
+              <span>Rs. 199</span>
+            </div>
+            <hr />
+            <div class="total-price flex flex-space-between">
+              <span>TOTAL AMOUNT</span>
+              <span>Rs. 14199</span>
+            </div>
+            <hr />
+            <button class="btn btn-link btn-lg">
+              <a href="#">PLACE ORDER</a>
+            </button>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </body>
+</html>

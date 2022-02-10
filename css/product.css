@@ -15,20 +15,6 @@
   margin: 3rem;
 }
 
-.product-container .card {
-  background-color: var(--background-color);
-  border: 1px solid var(--secondary-text-color);
-  margin: 0;
-}
-
-.product-container .card:hover {
-  box-shadow: 0 0 1rem var(--tertiary-color);
-}
-
-.card-image-container {
-  height: 250px;
-}
-
 .card-btn-container {
   padding: 1rem;
 }
