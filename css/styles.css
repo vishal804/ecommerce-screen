@@ -1,5 +1,6 @@
 @import "/css/utility.css";
 @import "/css/product.css";
+@import "/css/cart.css";
 
 * {
   margin: 0;
@@ -50,4 +51,25 @@ main .page-container {
 input {
   outline: none;
 }
-/* Search Style */
+
+/* Global Card Style */
+
+.card-style .card {
+  background-color: var(--background-color);
+  border: 1px solid var(--secondary-text-color);
+  margin: 0;
+}
+
+.card-image-container {
+  height: 15.625rem;
+}
+
+.card-horizontal-style .card {
+  background-color: var(--background-color);
+  border: 1px solid var(--secondary-text-color);
+  margin: 0 0 1rem 0;
+}
+
+.card:hover {
+  box-shadow: 0 0 1rem var(--tertiary-color);
+}
