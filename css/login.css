@@ -25,3 +25,14 @@
 .create-account {
   margin: 1rem 0;
 }
+
+.showhidepassword {
+  position: relative;
+}
+
+.showpassword {
+  position: absolute;
+  right: 5px;
+  top: 15px;
+  cursor: pointer;
+}

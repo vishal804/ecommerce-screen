@@ -52,7 +52,7 @@
           name="name"
           required
         />
-        <label class="form-label">Username</label>
+        <label class="form-label">Email</label>
         <input
           class="input"
           type="text"
@@ -61,13 +61,34 @@
           required
         />
         <label class="form-label">Password</label>
-        <input
-          class="input"
-          type="password"
-          placeholder="Enter Password"
-          name="password"
-          required
-        />
+        <div class="showhidepassword">
+          <input
+            id="password"
+            class="input"
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+          <div class="showpassword" onclick="showFunction('password')">
+            show
+          </div>
+        </div>
+
+        <label class="form-label">Confirm Password</label>
+        <div class="showhidepassword">
+          <input
+            id="confirmpassword"
+            class="input"
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+          <div class="showpassword" onclick="showFunction('confirmpassword')">
+            show
+          </div>
+        </div>
         <div class="login-store flex flex-space-between">
           <label for="store">
             <input type="checkbox" />
@@ -83,5 +104,6 @@
         </div>
       </form>
     </div>
+    <script type="text/javascript" src="/script.js"></script>
   </body>
 </html>
