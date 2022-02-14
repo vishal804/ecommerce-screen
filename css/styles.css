@@ -3,6 +3,10 @@
 @import "/css/cart.css";
 @import "/css/login.css";
 
+:root {
+  --bg-color: #000000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -89,3 +93,151 @@ a {
 .card:hover {
   box-shadow: 0 0 1rem var(--tertiary-color);
 }
+
+/* Home Page Styling */
+
+.banner {
+  background: url(/assets/images/banner2.jpg);
+  background-size: cover;
+  height: 29rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  object-fit: contain;
+}
+
+.banner-content {
+  margin: auto;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0 0 1rem 0;
+}
+
+.banner-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem 0 1rem 0;
+}
+
+/* Exclusive Deals */
+
+.wrapper-container {
+  margin: 5rem;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+
+.shop-card {
+  cursor: pointer;
+}
+
+.shop-card .card img {
+  position: relative;
+  border-radius: 1rem;
+}
+
+.shop-card .card-container {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  padding: 3rem 0 2rem 2rem;
+}
+
+.shop-card .card-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop-card .card-heading {
+  color: var(--secondary-text-color);
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.shop-card .card-text {
+  color: var(--secondary-text-color);
+}
+
+/* Exclusive Deals */
+
+/* Shop By Category */
+.category-container-card {
+  display: flex;
+  flex: 1 1 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.category-container-card .img-responsive {
+  max-width: 43.75rem;
+  margin: 3rem auto;
+}
+
+.category-container-card .title {
+  position: absolute;
+  top: 18.75rem;
+  left: 12.5rem;
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--secondary-text-color);
+}
+/* Shop By Category */
+
+/* Bestseller */
+
+.bestseller-container {
+  margin: 0 7rem;
+}
+
+/* Bestseller */
+
+/* Footer */
+
+.footer {
+  gap: 1.5rem;
+  background-color: var(--bg-color);
+  font-size: 0.9rem;
+  padding: 3rem;
+}
+
+.footer .brand {
+  line-height: 3.3rem;
+}
+
+.footer .logo {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.links-handle {
+  gap: 1rem;
+}
+
+.item-title {
+  font-size: 1.3rem;
+  color: var(--secondary-text-color);
+}
+
+.quick-links {
+  list-style: none;
+  font-weight: 300;
+  line-height: 2.2rem;
+}
+
+.footer a {
+  color: var(--secondary-text-color);
+}
+
+.footer p {
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
