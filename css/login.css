@@ -26,11 +26,11 @@
   margin: 1rem 0;
 }
 
-.showhidepassword {
+.show-hide-password {
   position: relative;
 }
 
-.showpassword {
+.show-password {
   position: absolute;
   right: 5px;
   top: 15px;
