@@ -27,12 +27,12 @@
           <input class="search" placeholder="Search" />
         </div>
         <ul class="right-navbar">
-          <li class="NoShow">
+          <li class="no-show">
             <a href="/pages/wishlist.html"
               ><i class="fa-2x far fa-heart"></i
             ></a>
           </li>
-          <li class="notification NoShow">
+          <li class="notification no-show">
             <a href="/pages/cart.html"
               ><i class="fas fa-shopping-cart fa-2x"></i
               ><span class="badge">0</span></a
@@ -55,18 +55,16 @@
           required
         />
         <label class="form-label">Password</label>
-        <div class="showhidepassword">
+        <div class="show-hide-password">
           <input
-            id="password"
+            id="create-password"
             class="input"
             type="password"
             placeholder="Enter Password"
             name="password"
             required
           />
-          <div class="showpassword" onclick="showFunction('password')">
-            show
-          </div>
+          <div class="show-password" id="show-create-password">show</div>
         </div>
 
         <div class="login-store flex flex-space-between">
